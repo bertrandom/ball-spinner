@@ -2,6 +2,10 @@
 
 Light-weight OAuth authenticated Flickr API client for browsers
 
+## warning
+
+Using this will expose your Flickr API key, secret, and OAuth credentials to the end-user. Ideally you should make the API calls on the server-side to protect your secrets. This is intended for prototyping and internal networks.
+
 ## usage
 
 Copy `bs.min.js` from the `build` directory to your project and add it as an external script in your HTML.
