@@ -10,7 +10,7 @@ Copy `bs.min.js` to your project and add it as an external script in your HTML.
 <script src="/js/bs.min.js"></script>
 ```
 
-Initialize BallSpinner with your API key, secret, and OAuth token.
+Initialize BallSpinner with your API key, secret, and OAuth token. [flickr-oauth-dance](https://www.npmjs.com/package/flickr-oauth-dance) can easily generate these from the command line.
 
 ```
 var bs = new BallSpinner({
