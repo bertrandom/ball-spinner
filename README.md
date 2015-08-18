@@ -4,7 +4,7 @@ Light-weight OAuth authenticated Flickr API client for browsers
 
 ## usage
 
-Copy `bs.min.js` to your project and add it as an external script in your HTML.
+Copy `bs.min.js` from the `build` directory to your project and add it as an external script in your HTML.
 
 ```
 <script src="/js/bs.min.js"></script>
