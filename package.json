@@ -1,0 +1,17 @@
+{
+  "name": "ball-spinner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ball-spinner.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "uglify-js": "^2.4.24"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/uglifyjs sha1.js ball-spinner.js -o build/bs.min.js && cat sha1.js ball-spinner.js > build/bs.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bertrand Fan",
+  "license": "ISC"
+}
