@@ -1,30 +1,30 @@
 <!doctype html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Ball Spinner Example</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <body>
-        <script src="/bs.js"></script>
-        <script>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Ball Spinner Example</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<script src="/bs.js"></script>
+		<script>
 
-	        var bs = new BallSpinner({
-			    "api_key": "3eda09cb562caa5859dcbf6062ca9b7d",
-			    "api_secret": "b8f5c7f9d37a7e65",
-			    "access_token": "72157649904431428-4cb322030200ac38",
-			    "access_token_secret": "bbd90fb171b1c946"
-		    });
+			var bs = new BallSpinner({
+				"api_key": "3eda09cb562caa5859dcbf6062ca9b7d",
+				"api_secret": "b8f5c7f9d37a7e65",
+				"access_token": "72157649904431428-4cb322030200ac38",
+				"access_token_secret": "bbd90fb171b1c946"
+			});
 
-		    bs.call({
+			bs.call({
 				method: 'flickr.photos.getInfo',
 				photo_id: 16399059040
-		    }, function(err, response) {
-		    	console.log(response);
-		    });
+			}, function(err, response) {
+				console.log(response);
+			});
 
-        </script>
-    </body>
+		</script>
+	</body>
 </html>
