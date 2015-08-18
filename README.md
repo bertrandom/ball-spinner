@@ -4,7 +4,9 @@ Light-weight OAuth authenticated Flickr API client for browsers
 
 ## warning
 
-Using this will expose your Flickr API key, secret, and OAuth credentials to the end-user. Ideally you should make the API calls on the server-side to protect your secrets. This is intended for prototyping and internal networks.
+Using this will expose your Flickr API key, secret, and OAuth credentials to the end-user. Ideally you should make the API calls on the server-side proxied from the client-side to protect your secrets. This is intended for prototyping, hack days, and internal networks.
+
+Seriously though, if you ignore this warning - best case scenario someone will hijack your Flickr API key for abuse/spam. Worst case scenario they delete all your photos. (The example API keys, secrets, and tokens below are fake).
 
 ## usage
 
