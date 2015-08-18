@@ -4,7 +4,7 @@ Light-weight OAuth authenticated Flickr API client for browsers
 
 ## usage
 
-Add `bs.min.js` as an external script.
+Copy `bs.min.js` to your project and add it as an external script in your HTML.
 
 ```
 <script src="/js/bs.min.js"></script>
@@ -50,3 +50,7 @@ Build
 ```
 npm run-script build
 ```
+
+## notes
+
+If you're already using jsSHA in your project, you should only minify ball-spinner.js
